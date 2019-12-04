@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2019-12-04 10:48:26
-@LastEditTime: 2019-12-04 13:49:12
+@LastEditTime: 2019-12-04 13:54:45
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \REEAD_UI\pageElement\setPage.py
@@ -83,5 +83,9 @@ def click_Layout(driver,text):
 def click_tv_commit(driver):
     driver.find_element_by_id('net.reead.home:id/tv_commit').click()
 
-# 检测新版本-文字 id net.reead.home:id/tv_version
-# 检测新版本-检测 id net.reead.home:id/rl_check_version
+# 检测新版本-文字 id 
+def text_tv_version(driver):
+    driver.find_element_by_id("net.reead.home:id/tv_version").text()
+# 检测新版本-检测 id 
+def click_rl_check_version(driver):
+    driver.find_element_by_id('net.reead.home:id/rl_check_version').click()
