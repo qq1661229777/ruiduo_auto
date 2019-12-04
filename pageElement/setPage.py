@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2019-12-04 10:48:26
-@LastEditTime: 2019-12-04 11:44:40
+@LastEditTime: 2019-12-04 11:55:03
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \REEAD_UI\pageElement\setPage.py
@@ -31,7 +31,7 @@ def click_year(driver):
 def click_month(driver):
     driver.find_element_by_xpath('//*[@resource-id="android:id/content"]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.view.View[2]').click()
 # 个人信息-生日-选择日 xpath
-def click_tv_birthday(driver):
+def click_tv_day(driver):
     driver.find_element_by_xpath('//*[@resource-id="android:id/content"]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.view.View[3]').click()
 # 个人信息-生日-选择确认 xpath
 # //*[@text="确定"]
