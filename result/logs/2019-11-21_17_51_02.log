@@ -1,0 +1,17 @@
+2019-11-21 17:51:02,011 INFO appDriver.setUpClass Line:54 driver加载成功 <appium.webdriver.webdriver.WebDriver (session="ab77c8bd-7f22-4571-838c-c0a8e3fd5707")>
+2019-11-21 17:51:02,012 INFO loginVerCode.test_Login Line:39 测试用例名称:短信输入框输入为空登录
+2019-11-21 17:51:02,012 INFO loginVerCode.test_Login Line:40 测试用例说明:验证crash现象
+2019-11-21 17:51:03,077 INFO loginVerCode.test_Login Line:45 手机号: 18874862102
+2019-11-21 17:51:04,300 INFO loginVerCode.test_Login Line:48 短信:      
+2019-11-21 17:51:27,810 INFO appDriver.setUpClass Line:54 driver加载成功 <appium.webdriver.webdriver.WebDriver (session="4fe6b462-f59f-49c2-9ed3-34a3b5a21bc1")>
+2019-11-21 17:51:27,813 INFO loginVerCode.test_Login Line:39 测试用例名称:短信输入框输入特殊符号登录
+2019-11-21 17:51:27,814 INFO loginVerCode.test_Login Line:40 测试用例说明:验证crash现象1
+2019-11-21 17:51:28,989 INFO loginVerCode.test_Login Line:45 手机号: 18874862102
+2019-11-21 17:51:30,529 INFO loginVerCode.test_Login Line:48 短信: %$#!%^&&
+2019-11-21 17:51:55,064 INFO appDriver.setUpClass Line:54 driver加载成功 <appium.webdriver.webdriver.WebDriver (session="4bf45c33-69bd-4cf8-a6cf-fc570282b7a7")>
+2019-11-21 17:51:55,065 INFO loginVerCode.test_Login Line:39 测试用例名称:输入7位数字
+2019-11-21 17:51:55,065 INFO loginVerCode.test_Login Line:40 测试用例说明:验证crash现象2
+2019-11-21 17:51:56,934 INFO loginVerCode.test_Login Line:45 手机号: 18874862102
+2019-11-21 17:51:58,150 INFO loginVerCode.test_Login Line:48 短信: 1234567.0
+2019-11-21 17:51:59,871 INFO runCase.<module> Line:38 测试用例个数 3
+2019-11-21 17:52:00,535 INFO runCase.<module> Line:42 邮件发送成功!
