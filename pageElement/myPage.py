@@ -1,7 +1,7 @@
 '''
-@Author: your name
+@Author: HPX
 @Date: 2019-11-20 13:52:35
-@LastEditTime: 2019-12-03 15:14:48
+@LastEditTime: 2019-12-04 13:59:33
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \REEAD_UI\pageElement\myPage.py
