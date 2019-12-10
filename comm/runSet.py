@@ -1,7 +1,15 @@
+'''
+@Author: your name
+@Date: 2019-11-12 18:42:02
+@LastEditTime: 2019-12-10 16:33:04
+@LastEditors: Please set LastEditors
+@Description: In User Settings Edit
+@FilePath: \REEAD_UI\comm\runSet.py
+'''
 import os
 import time
 import unittest
-#导入邮件模块
+#导入邮件模块 01
 import smtplib
 from email.header import Header
 from email.mime.text import MIMEText
